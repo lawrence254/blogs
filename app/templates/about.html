@@ -1,0 +1,18 @@
+ 
+{% extends "blog.html" %}
+{% block content %}
+<blockquote class="quote-box text-center primary-color">
+      <p class="quotation-mark">
+        “
+      </p>
+      <p class="quote-text">
+        {{quote.quote}}
+      </p>
+      <hr />
+      <div class="blog-post-actions">
+        <p class="blog-post-bottom pull-left">
+          {{quote.author}}
+        </p>
+      </div>
+    </blockquote>
+{% endblock content %}
